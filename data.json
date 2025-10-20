@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "task": "Comprar víveres para la semana",
+        "completed": false,
+        "priority": "high",
+        "category": "personal",
+        "dueDate": "2025-10-20"
+    },
+    {
+        "id": 2,
+        "task": "Terminar informe del proyecto",
+        "completed": false,
+        "priority": "high",
+        "category": "trabajo",
+        "dueDate": "2025-10-21"
+    },
+    {
+        "id": 3,
+        "task": "Llamar al dentista para cita",
+        "completed": true,
+        "priority": "medium",
+        "category": "personal",
+        "dueDate": "2025-10-19"
+    },
+    {
+        "id": 4,
+        "task": "Revisar correos pendientes",
+        "completed": false,
+        "priority": "medium",
+        "category": "trabajo",
+        "dueDate": "2025-10-20"
+    },
+    {
+        "id": 5,
+        "task": "Hacer ejercicio 30 minutos",
+        "completed": true,
+        "priority": "low",
+        "category": "salud",
+        "dueDate": "2025-10-19"
+    },
+    {
+        "id": 6,
+        "task": "Leer libro por 20 minutos",
+        "completed": false,
+        "priority": "low",
+        "category": "personal",
+        "dueDate": "2025-10-22"
+    },
+    {
+        "id": 7,
+        "task": "Preparar presentación para reunión",
+        "completed": false,
+        "priority": "high",
+        "category": "trabajo",
+        "dueDate": "2025-10-23"
+    },
+    {
+        "id": 8,
+        "task": "Organizar escritorio y documentos",
+        "completed": false,
+        "priority": "low",
+        "category": "personal",
+        "dueDate": "2025-10-24"
+    },
+    {
+        "id": 9,
+        "task": "Actualizar contraseñas de seguridad",
+        "completed": false,
+        "priority": "medium",
+        "category": "tecnología",
+        "dueDate": "2025-10-25"
+    },
+    {
+        "id": 10,
+        "task": "Planificar menú de la semana",
+        "completed": true,
+        "priority": "medium",
+        "category": "personal",
+        "dueDate": "2025-10-19"
+    }
+]

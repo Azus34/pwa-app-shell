@@ -1,0 +1,19 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo verde -->
+  <rect width="512" height="512" fill="#4CAF50" rx="64"/>
+  
+  <!-- Checkmark blanco -->
+  <path d="M 173 256 L 224 307 L 339 192" 
+        stroke="white" 
+        stroke-width="40" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- Círculo decorativo -->
+  <circle cx="256" cy="256" r="140" 
+          stroke="white" 
+          stroke-width="20" 
+          fill="none" 
+          opacity="0.3"/>
+</svg>

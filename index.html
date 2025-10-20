@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#4CAF50">
+    <meta name="description" content="Aplicación de gestión de tareas - PWA">
+    
+    <!-- Manifiesto de la PWA -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Íconos para dispositivos Apple -->
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    
+    <title>App de Tareas - PWA</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Encabezado del App Shell -->
+    <header class="app-header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">✓</span>
+                <h1>App de Tareas</h1>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <!-- Menú de navegación lateral -->
+    <nav class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h2>Menú</h2>
+            <button class="close-menu" id="closeMenu" aria-label="Cerrar menú">✕</button>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#" data-view="home" class="nav-link active">🏠 Inicio</a></li>
+            <li><a href="#" data-view="tasks" class="nav-link">📋 Tareas</a></li>
+            <li><a href="#" data-view="completed" class="nav-link">✅ Completadas</a></li>
+            <li><a href="#" data-view="about" class="nav-link">ℹ️ Acerca de</a></li>
+        </ul>
+    </nav>
+
+    <!-- Área de contenido dinámico -->
+    <main class="main-content" id="mainContent">
+        <div class="content-wrapper">
+            <!-- Indicador de estado de conexión -->
+            <div class="connection-status" id="connectionStatus">
+                <span class="status-indicator"></span>
+                <span class="status-text">En línea</span>
+            </div>
+
+            <!-- Contenido dinámico se carga aquí -->
+            <div id="dynamicContent">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>Cargando...</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pie de página del App Shell -->
+    <footer class="app-footer">
+        <div class="footer-content">
+            <p>&copy; 2025 App de Tareas PWA</p>
+            <p class="version">Versión 1.0.0</p>
+        </div>
+    </footer>
+
+    <!-- Overlay para el menú en móvil -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Script principal de la aplicación -->
+    <script src="app.js"></script>
+</body>
+</html>
