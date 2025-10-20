@@ -79,28 +79,7 @@ El Service Worker (`sw.js`) implementa dos estrategias de caché:
 - Visual Studio Code
 - Navegador web moderno (Chrome, Edge, Firefox, Safari)
 
-### Despliegue en VERCEL
-
-**La forma más fácil y profesional:**
-
-1. **Sube el proyecto a GitHub** (ver sección más abajo)
-2. **Ve a [Vercel](https://vercel.com)** y crea una cuenta (gratis)
-3. **Conecta con GitHub** y selecciona el repositorio `pwa-app-shell`
-4. **Haz clic en "Deploy"**
-5. ¡Listo! Tu PWA estará en: `https://pwa-app-shell.vercel.app`
-
-**Ventajas:**
--  HTTPS automático (requerido para PWAs)
--  URL pública para compartir
--  Funciona en cualquier dispositivo
--  Despliegue automático con cada push
--  100% gratis
-
- **Guía completa**: Lee `DESPLEGAR-VERCEL.md`
-
----
-
-### Opción 2: Servidor Local con Live Server
+### Servidor Local con Live Server
 
 1. **Clonar o descargar el proyecto**:
    ```bash
@@ -127,7 +106,6 @@ El Service Worker (`sw.js`) implementa dos estrategias de caché:
    - Se abrirá automáticamente en `http://localhost:5500` o similar
    - La aplicación estará lista para usar
 
- **Ayuda adicional**: Lee `COMO-INICIAR.md` o `GUIA-VISUAL.txt`
 
 ### Instalación como PWA
 
@@ -248,56 +226,6 @@ Todos los archivos incluyen comentarios detallados:
 - `app.js`: Funciones y flujos principales
 - `sw.js`: Estrategias de caché y eventos
 
----
-
-##  Subir a GitHub
-
-### Configuración Inicial
-
-```bash
-# Navegar a la carpeta del proyecto
-cd pwa-app-shell
-
-# Inicializar repositorio Git
-git init
-
-# Agregar todos los archivos
-git add .
-
-# Hacer commit inicial
-git commit -m "Inicial: App de Tareas PWA completa"
-
-# Conectar con el repositorio remoto
-git remote add origin https://github.com/Azus34/pwa-app-shell.git
-
-# Subir a GitHub
-git branch -M main
-git push -u origin main
-```
-
-### Actualizar Cambios
-
-```bash
-# Ver estado de archivos
-git status
-
-# Agregar archivos modificados
-git add .
-
-# Hacer commit con mensaje descriptivo
-git commit -m "Actualización: descripción de cambios"
-
-# Subir cambios
-git push
-```
-
-### Publicar con GitHub Pages
-
-1. Ve a tu repositorio en GitHub
-2. Settings → Pages
-3. Source: Selecciona la rama `main` y carpeta `/root`
-4. Guarda y espera unos minutos
-5. Tu PWA estará disponible en: `https://azus34.github.io/pwa-app-shell/`
 
 ---
 
